@@ -46,7 +46,7 @@ class Header extends React.Component {
             <div className="three columns">
               <h1 className="Header__logo">
                 <Link to="/" className="Header__logo-link">
-                  <i className="fa fa-plug Header__instagram-icon" aria-hidden="true"/>Gym Plug</Link>
+                  <i className="fa fa-plug Header__instagram-icon" aria-hidden="true"/>The Plug</Link>
               </h1>
             </div>
             <nav className="offset-by-seven two columns">
