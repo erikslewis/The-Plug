@@ -22,8 +22,8 @@ class LikeButton extends React.Component {
         className="LikeButton__root"
         onClick={this.handleClick}>
         {this.props.liked ?
-        (<i className="fa fa-heart LikeButton__icon LikeButton__icon--liked"/>) :
-        (<i className="fa fa-heart-o LikeButton__icon"/>)}
+        (<i className="fa fa-thumbs-up LikeButton__icon LikeButton__icon--liked"/>) :
+        (<i className="fa fa-thumbs-o-up LikeButton__icon"/>)}
       </button>
     );
   }

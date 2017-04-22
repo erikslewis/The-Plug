@@ -2,7 +2,9 @@
 
 .Spinner {
   animation: rotator 1.4s linear infinite;
-  width: 30px;
+  width: 40px;
+  text-align: center;
+  margin: 10% 50%;
 }
 
 @keyframes rotator {
@@ -20,11 +22,11 @@
 }
 
 @keyframes colors {
-	0% { stroke: #fec564; }
-	25% { stroke: #5258cf; }
-	50% { stroke: #893dc2; }
-	75% { stroke: #d9317a; }
-  100% { stroke: #f77638; }
+	0% { stroke: silver; }
+	25% { stroke: silver; }
+	50% { stroke: rgb(0, 176, 41); }
+	75% { stroke: rgb(0, 176, 41); }
+  100% { stroke: rgb(0, 176, 41); }
 }
 
 @keyframes dash {

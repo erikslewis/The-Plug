@@ -9,8 +9,9 @@
 
 button.FollowButton__root,
 button.FollowButton__root:hover {
-  border-color: #3897f0;
-  color: #3897f0;
+  border-color: white;
+  color: rgb(0, 176, 41);
+  background-color: black
 }
 
 button.FollowButton__root.FollowButton--following,

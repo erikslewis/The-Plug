@@ -19,7 +19,7 @@ const customStyles = {
     right                      : 'initial',
     bottom                     : 'initial',
     border                     : '1px solid #ccc',
-    background                 : '#fff',
+    background                 : 'black',
     overflow                   : 'auto',
     WebkitOverflowScrolling    : 'touch',
     borderRadius               : '4px',

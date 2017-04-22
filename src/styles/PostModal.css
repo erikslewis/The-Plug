@@ -1,5 +1,6 @@
 .PostModal__root {
   width: 100%;
+  height: 100%;
 }
 
 .PostModal__photo-wrapper {
@@ -47,14 +48,15 @@
 }
 
 .PostModal__info-container {
-  background-color: #fff;
-  padding: 15px 15px 15px 0;
-  margin-left: 26px !important;
+  background-color: silver;
+  padding: 120px 5px 140px 5px;
+  margin-left: 1px !important;
+
 }
 
 .PostModal__user-info {
   display: flex;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
   border-bottom: 1px solid #efefef;
   align-items: center;
 }
@@ -83,16 +85,15 @@
 
 .PostModal__action-box {
   position: absolute;
-  bottom: 0;
-  width: calc(30.6666666667% - 15px);
-  padding: 10px 0;
+  top: 0;
+  width: 10px;
+  height: 300px;
+  padding: 180px 0px;
   border-top: 1px solid #efefef;
 }
 
 .PostModal__like-button,
 .PostModal__comment-box {
   display: inline-block;
-  margin: 0;
-  padding: 0;
-  vertical-align: middle;
+
 }

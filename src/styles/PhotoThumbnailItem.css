@@ -1,7 +1,7 @@
 .PhotoThumbnailItem__root {
-  width: 270px;
-  height: 270px;
-  margin: 20px;
+  width: 160px;
+  height: 160px;
+  margin: 5px;
 }
 
 .PhotoThumbnailItem__overlay {

@@ -112,7 +112,7 @@ class Profile extends React.Component {
     if (this.props.isCurrentUser) {
       return (
         <button className="Profile__edit-button">
-          <Link to="/profile/edit">Edit Profile</Link>
+          <Link to="/profile/edit">Build Profile</Link>
         </button>
       );
     } else {
@@ -131,7 +131,7 @@ class Profile extends React.Component {
     if (this.props.isCurrentUser) {
       return (
         <button className="Profile__menu-button" onClick={this.openLogoutModal}>
-          <i className="fa fa-ellipsis-h" aria-hidden="true" />
+          <i className="fa fa-gears" aria-hidden="true" />
         </button>
       );
     }
@@ -179,9 +179,6 @@ class Profile extends React.Component {
             </div>
           </div>
           <div className="five columns">
-            <h3 className="Profile__username">{username}</h3>
-            {this.renderActionButton()}
-            {this.renderMenuButton()}
             <div className="Profile__stats">
               <div className="Profile__stats-item">
                 <span className="Profile__stats-count">{user.postIds.length}</span> {pluralize(user.postIds.length, 'post', 'posts')}
@@ -197,6 +194,9 @@ class Profile extends React.Component {
                 <span className="Profile__stats-count">{user.followingCount}</span> {pluralize(user.followingCount, 'following', 'following')}
               </div>
             </div>
+            <h3 className="Profile__username">{username}</h3>
+            {this.renderActionButton()}
+            {this.renderMenuButton()}
           </div>
         </div>
         <PhotoGrid

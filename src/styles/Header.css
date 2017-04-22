@@ -1,6 +1,6 @@
 .Header__root {
-  background-color: #ffffff;
-  border-bottom: 1px solid #dbdbdb;
+  background-color: #333;
+  border-bottom: 1px solid silver;
 }
 
 .Header__container {
@@ -16,16 +16,16 @@
 
 .Header__logo-link {
   text-decoration: none;
-  color: #262626;
+  color: rgb(0, 176, 41);
 }
 
 .Header__logo-link:hover {
-  color: #262626;
+  color: silver;
 }
 
 .Header__instagram-icon {
   padding-right: 10px;
-  border-right: 2px solid #dbdbdb;
+  border-right: 2px solid silver;
   margin-right: 4px;
 }
 
@@ -44,22 +44,23 @@
 
 .Header__nav-link a {
   text-decoration: none;
-  color: #999;
+  color: silver;
 }
 
 .Header__nav-icon.fa {
   display: inline-block;
   margin-top: 8px;
-  font-size: 20px;
+  margin-left: -18px;
+  font-size: 40px;
 }
 
 .Header__nav-link a:hover,
 .Header__nav-link a:active {
-  color: #262626;
+  color: rgb(0, 176, 41);
 }
 
 .Header__nav-link .NavLink--active {
-  color: #262626;
+  color: rgb(0, 176, 41);
 }
 
 .Header__notification-nav {

@@ -1,14 +1,14 @@
 .ProfileEditForm__root {
-  background-color: white;
+  background-color: #999;
   padding: 1rem;
-  border: 1px solid #efefef;
+  border: 1px solid black;
   border-radius: 2px;
 }
 
 .ProfileEditForm__dropzone {
   width: 150px;
   height: 150px;
-  border: 2px solid #d3d3d3;
+  border: 2px solid rgb(0, 176, 41);
   border-radius: 50%;
   cursor: pointer;
 }
@@ -27,7 +27,7 @@
 }
 
 .ProfileEditForm__input-label {
-  color: #262626;
+  color: black;
 }
 
 .ProfileEditForm__input-field {
@@ -55,7 +55,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 36px;
-  color: rgba(255, 255, 255, 0.7);
+  color: rgb(0, 176, 41);
   transition: color 150ms;
 }
 
