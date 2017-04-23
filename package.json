@@ -1,5 +1,5 @@
 {
-  "name": "hackafy",
+  "name": "theplug",
   "version": "0.0.1",
   "private": true,
   "devDependencies": {
@@ -8,6 +8,7 @@
   "dependencies": {
     "actioncable": "5.0.0",
     "axios": "0.13.1",
+    "build-react-with-tap-event": "^1.0.0",
     "classnames": "2.2.5",
     "express": "^4.15.2",
     "lodash": "4.14.1",
