@@ -5,7 +5,7 @@ import noImage from '../images/no-image.jpg';
 export const getAvatarUrl = (avatarUrl) => {
   const facebookAvatarUrl = /http:\/\/graph.facebook.com\//;
   return avatarUrl ?
-  `${(process.env.NODE_ENV !== 'production' && !facebookAvatarUrl.test(avatarUrl)) ? '://localhost:5000' : ''}${avatarUrl}` :
+  `${(process.env.NODE_ENV !== 'production' && !facebookAvatarUrl.test(avatarUrl)) ? '' : ''}${avatarUrl}` :
   defaultAvatarImg;
 }
 
