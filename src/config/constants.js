@@ -4,4 +4,4 @@ export const API_URL = process.env.NODE_ENV === 'production' ?
 
 export const WS_URL =  process.env.NODE_ENV === 'production' ?
                        'wss://enigmatic-mountain-38641.herokuapp.com/api/cable' :
-                       'ws:https://desolate-earth-24328.herokuapp.com';
+                       'ws://desolate-earth-24328.herokuapp.com';
