@@ -63,7 +63,7 @@ class ProfileEditForm extends React.Component {
   }
 
   _onSubmit(fieldValues) {
-    this.props.userUpdate(fieldValues, this.state.files[1]);
+    this.props.userUpdate(fieldValues, this.state.files[0]);
   }
 
   render() {
