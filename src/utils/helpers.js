@@ -3,7 +3,7 @@ import noImage from '../images/no-image.jpg';
 
 // Helper function for User avatar image
 export const getAvatarUrl = (avatarUrl) => {
-  const facebookAvatarUrl = /http:\/\/graph.facebook.com\//;
+  const facebookAvatarUrl = /https:\/\/graph.facebook.com\//;
   return avatarUrl ?
   `${(process.env.NODE_ENV !== 'production' && !facebookAvatarUrl.test(avatarUrl)) ? '' : ''}${avatarUrl}` :
   defaultAvatarImg;
