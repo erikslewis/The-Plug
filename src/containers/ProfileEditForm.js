@@ -67,7 +67,11 @@ class ProfileEditForm extends React.Component {
   }
 
   render() {
-    const { fields: { username, email }, handleSubmit, currentUser } = this.props;
+    const {
+        fields: { username, email },
+        handleSubmit,
+        currentUser
+      } = this.props;
     return (
       <form className="ProfileEditForm__root" onSubmit={handleSubmit(this.onSubmit)}>
         <div className="ProfileEditForm__profile-container">
