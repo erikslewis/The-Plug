@@ -21,7 +21,7 @@ export const userUpdate = ({ username, email }, file) => (dispatch, getState) =>
 
   return axios({
     method: 'patch',
-    url: `${API_URL}/me`,
+    url: `${API_URL}/me/avatar`,
     data: formData,
     headers: {
       'Authorization': `Token ${authToken}`
