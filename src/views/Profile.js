@@ -109,6 +109,7 @@ class Profile extends React.Component {
   }
 
   renderActionButton() {
+    const { id } = this.props.user;
     if (this.props.isCurrentUser) {
       return (
         <button className="Profile__edit-button">
@@ -116,7 +117,6 @@ class Profile extends React.Component {
         </button>
       );
     } else {
-      const { id } = this.props.user;
       return (
         <FollowButton
           isFollowing={this.props.isFollowing}
