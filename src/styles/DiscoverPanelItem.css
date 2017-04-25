@@ -55,8 +55,8 @@
 }
 
 .DiscoverPanelItem__photo-item {
-  width: 180px;
-  height: 180px;
+  width: 40px;
+  height: 40px;
   background-size: cover;
   background-position: center center;
 }
