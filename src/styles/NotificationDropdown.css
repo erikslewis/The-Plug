@@ -10,7 +10,7 @@
 .NotificationDropdown__arrow {
   width: 14px;
   height: 14px;
-  background-color: white;
+  background-color: rgb(0, 176, 41);
   border: 1px solid #efefef;
   z-index: 11;
   transform: rotate(45deg);
@@ -20,7 +20,7 @@
 }
 
 .NotificationDropdown__arrow-connect {
-  border-color: transparent transparent #fff;
+  border-color: silver;
   border-style: solid;
   border-width: 0 10px 10px;
   height: 0;
