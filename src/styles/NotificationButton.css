@@ -3,8 +3,8 @@
 }
 
 .NotificationButton__button--active {
-  background-color: #6559ca;
-  color: white !important;
+  background-color: rgb(0, 176, 41);
+  color: black !important;
   border-radius: 50%;
   width: 22px;
   height: 22px;
