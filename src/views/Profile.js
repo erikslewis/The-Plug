@@ -109,7 +109,6 @@ class Profile extends React.Component {
   }
 
   renderActionButton() {
-    const { id } = this.props.user;
     if (this.props.isCurrentUser) {
       return (
         <button className="Profile__edit-button">
@@ -117,6 +116,7 @@ class Profile extends React.Component {
         </button>
       );
     } else {
+      const { id } = this.props.user;
       return (
         <FollowButton
           isFollowing={this.props.isFollowing}
@@ -179,6 +179,9 @@ class Profile extends React.Component {
             </div>
           </div>
           <div className="five columns">
+            <h3 className="Profile__username">{username}</h3>
+            {this.renderActionButton()}
+            {this.renderMenuButton()}
             <div className="Profile__stats">
               <div className="Profile__stats-item">
                 <span className="Profile__stats-count">{user.postIds.length}</span> {pluralize(user.postIds.length, 'post', 'posts')}
@@ -194,9 +197,6 @@ class Profile extends React.Component {
                 <span className="Profile__stats-count">{user.followingCount}</span> {pluralize(user.followingCount, 'following', 'following')}
               </div>
             </div>
-            <h3 className="Profile__username">{username}</h3>
-            {this.renderActionButton()}
-            {this.renderMenuButton()}
           </div>
         </div>
         <PhotoGrid
