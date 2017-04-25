@@ -38,7 +38,7 @@
   top: 50px;
   right: 80px;
   z-index: 11;
-  min-width: 500px;
+  width: 200px;
   background: #fff;
   border: solid 1px #efefef;
   border-radius: 3px;
